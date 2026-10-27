@@ -1,0 +1,58 @@
+{
+  "test_cases": [
+    {
+      "claim_id": "TC001",
+      "claim": "The library is open on Sundays",
+      "expected_verdict": "Contradicted",
+      "explanation": "The policy explicitly states that the library is closed on Sundays."
+    },
+    {
+      "claim_id": "TC002",
+      "claim": "Students can borrow up to four books at a time",
+      "expected_verdict": "Supported",
+      "explanation": "The policy states that students may borrow a maximum of four books at a time."
+    },
+    {
+      "claim_id": "TC003",
+      "claim": "The library operates from 9 AM to 5 PM Monday through Friday",
+      "expected_verdict": "Supported",
+      "explanation": "The policy explicitly states the operating hours are 9 AM to 5 PM Monday through Friday."
+    },
+    {
+      "claim_id": "TC004",
+      "claim": "The loan period is 30 days",
+      "expected_verdict": "Contradicted",
+      "explanation": "The policy states the loan period is 14 days, not 30 days."
+    },
+    {
+      "claim_id": "TC005",
+      "claim": "A valid college ID is required to borrow books",
+      "expected_verdict": "Supported",
+      "explanation": "The policy explicitly requires a valid college ID for borrowing books."
+    },
+    {
+      "claim_id": "TC006",
+      "claim": "The library has 50 computers",
+      "expected_verdict": "Contradicted",
+      "explanation": "The policy states the library has 20 computers, not 50."
+    },
+    {
+      "claim_id": "TC007",
+      "claim": "The library is open on weekends",
+      "expected_verdict": "Contradicted",
+      "explanation": "The policy states the library is closed on Sundays and only open Monday through Friday."
+    },
+    {
+      "claim_id": "TC008",
+      "claim": "Students can borrow an unlimited number of books",
+      "expected_verdict": "Contradicted",
+      "explanation": "The policy limits borrowing to a maximum of four books at a time."
+    },
+    {
+      "claim_id": "TC009",
+      "claim": "The library offers printing services",
+      "expected_verdict": "Insufficient Evidence",
+      "explanation": "The policy does not mention printing services, so there is insufficient evidence to verify this claim."
+    }
+  ]
+}
